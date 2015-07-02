@@ -21,8 +21,11 @@ cd
     cd /diretorio
 
 cowsay
-  Descrição do comando
-
+  Programa de troca de mensagens a partir de animações em ASCII.
+    cowsay -l = ver todas as variações de animações.
+	  cowsay “mensagem” = manda a mensagem para o seu próprio terminal em configuração default, ou seja, uma vaca.
+	  cowsay –f kiss “mensagem” = manda a mensagem para o seu próprio terminal em configuração kiss, ou seja, de um beijo.   Atenção: o kiss pode ser substituído pelas outras variações.
+  	cowsay –f kiss “mensagem” | write colega = manda a mensagem para o terminal do seu colega em configuração kiss, ou seja, de um beijo. Atenção: o kiss pode ser substituído pelas outras variações.
 
 echo
   Descrição do comando
