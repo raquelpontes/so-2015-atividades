@@ -28,16 +28,17 @@ cowsay
   	cowsay –f kiss “mensagem” | write colega = manda a mensagem para o terminal do seu colega em configuração kiss, ou seja, de um beijo. Atenção: o kiss pode ser substituído pelas outras variações.
 
 echo
-  Descrição do comando
-
+  Mostra os argumentos na saída.
+    echo /* = exibe todos os nomes de arquivos de um diretório em ordem alfabética.
+    echo "$VARIAVEL" = verifica o conteúdo da variável de ambiente VARIAVEL. 
 
 env
-  Descrição do comando
-
+  Lista as variáveis de ambiente. 
+  env
 
 exit
-  Descrição do comando
-
+  Sair do local atual.
+    exit ou Ctrl + D
 
 help
   Descrição do comando
