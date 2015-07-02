@@ -34,6 +34,7 @@ echo
 
 env
   Lista as variáveis de ambiente. 
+  
   env
 
 exit
