@@ -42,88 +42,77 @@ exit
     exit ou Ctrl + D
 
 help
-  Descrição do comando
-
+  Exibe os comandos e as informações.
+    comando –help = apresenta o arquivo ajuda do comando que foi informado.
 
 HISTTIMEFORMAT="%d/%m/%y"
-  Descrição do comando
-
+  Ativa marca de tempo para o history.
 
 hostname
-  Descrição do comando
-
+  Nome da máquina utilizada no momento.
 
 ifconfig
-  Descrição do comando
-
+  Apresenta configurações da máquina, informando o IP, entre outros.
 
 last
-  Descrição do comando
-
+  Exibe a lista de usuários que autenticaram no sistema.
 
 lastb
-  Descrição do comando
-
+  Exibe informações sobre as tentativas mal sucedidas de se logar ao sistema.
 
 ls
-  Descrição do comando
-
+  Lista os arquivos e diretórios das pastas.
+    ls, ls –F, ls –F1 = lista e insere quebra de linha
 
 mkdir
-  Descrição do comando
-
+  Criação de diretórios. 
+    mkdir “nome da pasta” = cria pasta com o nome do diretório informado.
 
 nome="fulano
-  Descrição do comando
-
+  Criação de variável de ambiente.
 
 passswd
-  Descrição do comando
-
+  Alterar senha do usuário.
 
 pwd
-  Descrição do comando
-
+  Apresenta o diretório atual do usuário. Present Working Directory.
 
 set
-  Descrição do comando
-
+  Controla o comportamento no shell, listando todas as variáveis de ambiente. 
+    set
+    HOSTNAME=switch
+    HOSTTYPE=i486
 
 tree
-  Descrição do comando
-
+  Exibe todos os diretórios e arquivos em formato de árvore.
 
 tty
-  Descrição do comando
-
+  Imprimir o nome do terminal conectado à entrada padrão de arquivo.
 
 vim
-  Descrição do comando
-
+  Esse comando serve para exibir um arquivo, inserir conteúdo, entre outros.
+    :a = inserir e editar valores
+    ESC:x = salvar e fechar
+    ESC:q = fechar
 
 wait
-  Descrição do comando
-
+  Esperar os processos em mudança de estado.
 
 wall
-  Descrição do comando
-
+  Escrever mensagens para os usuários.
 
 which
-  Descrição do comando
-
+  Localizar comando.
 
 while
-  Descrição do comando
-
+  Laço de repetição.
 
 who
-  Descrição do comando
-
+  Mostra o usuário logado agora.
 
 whoami
-  Descrição do comando
+  Apresenta id do usuário efetivo.
 
 write
-  Descrição do comando
-
+  Envia mensagens para outro usuário.
+    write raquel
